@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MailChimp Log In</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <img src="https://www.nopcommerce.com/images/thumbs/0005310_mailchimp-synchronization-plugin.png" alt="Logo-Mailchimp" />
+  <div class="container">
+    <h2>Welcome to MailChimp</h2>
+    <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's MArketing Platform. Already have an account? <span>Log in</span></p>
+    <form action="#" method="post">
+      <label for="correo">Email</label>
+      <input class="input-size" type="email" id="correo" name="correo" required />
+
+      <label for="nombre">Username</label>
+      <input class="input-size" type="text" id="nombre" name="nombre" required maxlength="50" />
+
+      <div class="pass">
+        <label for="contraseña">Password</label>
+        <i class="fa-solid fa-eye"></i>
+        <span>Show</span>
+      </div>
+
+      <input class="input-size" type="password" id="contraseña" name="contraseña" required minlength="8" />
+    </form>
+
+    <div class="ul-column">
+      <ul>
+        <li>One lowercase character</li>
+        <li>One uppercase character</li>
+        <li>One number</li>
+      </ul>
+      <ul>
+        <li>One special character</li>
+        <li>8 characters minimun</li>
+      </ul>
+    </div> 
+
+    <div class="signup-container">
+      <button type="submit">Sign Up</button>
+      <input class="checkbo" type="checkbox" id="aceptar_terminos" name="aceptar_terminos" required />
+      <p>I dont want to receive emails about new Mailchimp products, best practices, or special offers.</p>
+    </div>
+
+    <p>By clicking the "Sing Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <span>Terms of Use</span> and <span>Privacy Policy</span></p>
+  </div>
+</body>
+
+</html>
